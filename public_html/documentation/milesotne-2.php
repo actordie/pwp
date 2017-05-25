@@ -27,10 +27,10 @@
 		<li>All the badass longboarding stuffz I've done</li>
 		<h2>Contact</h2>
 		<li>Way to get a hold of ya boi!</li>
-		<p>Welcome messaging</p>
-		<img src="images/ambientcreativit.png">
-		<img src="images/ambientcreativit-1.png">
-		<img src="images/ambientcreativit-2.png">
+
+		<img src="images/ambientcreativit.png" class="pad-down">
+		<img src="images/ambientcreativit-1.png" class="pad-down">
+		<img src="images/ambientcreativit-2.png" class="pad-down">
 
 	</body>
 
