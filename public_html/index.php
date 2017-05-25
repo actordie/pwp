@@ -8,5 +8,8 @@
 		<section>
 			<img src=""
 		</section>>
+		<section>
+			<img src="images"
+		</section>
 	</body>
 </html>
