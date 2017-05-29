@@ -12,7 +12,7 @@
 		</div>
 		<div class="background-image-3">
 		</div>
-		<div class="background-image-1">
+		<div class="background-image-4">
 		</div>
 	</body>
 </html>
