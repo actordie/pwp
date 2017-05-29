@@ -6,13 +6,13 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 	</head>
 	<body>
-		<div>
+		<div class="background-image-1">
 		</div>
-		<div>
+		<div class="background-image-2">
 		</div>
-		<div>
+		<div class="background-image-3">
 		</div>
-		<div>
+		<div class="background-image-1">
 		</div>
 	</body>
 </html>
