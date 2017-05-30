@@ -1,20 +1,20 @@
 .background-image-1 {
-	background: url(../images/new-heights-resize.jpg) no-repeat center;
+	background: url(../images/new-heights-resize.jpg) no-repeat 68%;
 	height: 100vh;
 	background-size: cover;
 }
 .background-image-2 {
-	background: url(../images/linkin-resize.jpg) no-repeat center;
+	background: url(../images/cruising-resize.jpg) no-repeat 75%;
 	height: 100vh;
 	background-size: cover;
 }
 .background-image-3 {
-	background: url(../images/pov-resize.jpg) no-repeat center;
+	background: url(../images/pov-resize.jpg) no-repeat 70%;
 	height: 100vh;
 	background-size: cover;
 }
 .background-image-4 {
-	background: url(../images/volcano-surfing-resize.jpg) no-repeat center;
+	background: url(../images/volcano-surfing-resize.jpg) no-repeat 85%;
 	height: 100vh;
-	background-size:cover;
+	background-size: cover;
 }
