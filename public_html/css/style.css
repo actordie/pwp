@@ -14,7 +14,7 @@
 	background-size: cover;
 }
 .background-image-4 {
-	background-image: url(../images/volcano-surfing-resize.jpg);
+	background: url(../images/volcano-surfing-resize.jpg) no-repeat center;
 	height: 100vh;
-	background-repeat: no-repeat;
+	background-size:cover;
 }
