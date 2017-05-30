@@ -4,14 +4,14 @@
 	background-size: cover;
 }
 .background-image-2 {
-	background-image: url(../images/linkin-resize.jpg);
+	background: url(../images/linkin-resize.jpg) no-repeat center;
 	height: 100vh;
-	background-repeat: no-repeat;
+	background-size: cover;
 }
 .background-image-3 {
-	background-image: url(../images/pov-resize.jpg);
+	background: url(../images/pov-resize.jpg) no-repeat center;
 	height: 100vh;
-	background-repeat: no-repeat;
+	background-size: cover;
 }
 .background-image-4 {
 	background-image: url(../images/volcano-surfing-resize.jpg);
