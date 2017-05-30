@@ -1,7 +1,7 @@
 .background-image-1 {
-	background-image: url(../images/new-heights-resize.jpg);
+	background: url(../images/new-heights-resize.jpg) no-repeat center;
 	height: 100vh;
-	background-repeat: no-repeat;
+	background-size: cover;
 }
 .background-image-2 {
 	background-image: url(../images/linkin-resize.jpg);
@@ -14,7 +14,7 @@
 	background-repeat: no-repeat;
 }
 .background-image-4 {
-	background-image: url(../images/regina-revenge.jpg);
+	background-image: url(../images/volcano-surfing-resize.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 }

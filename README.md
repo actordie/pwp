@@ -20,7 +20,7 @@ I really love your direction here, and the beautiful graphics and animation you 
 
 Your wireframes and content strategy are thoughtful and well done. Nice work.
 
-It looks like each section of the page will have a full-screen background image, and each section will be 100% of the viewport height. This is all pretty straightforward with the right CSS rules. Each section should probably be sized using the `vh` unit of measurement (`height: 100vh;`). The images can then be set as a `background` on each section. Be sure that the images are large and hi-res enough to display well on large screens, with3out being too big. (Keep each one less than 1MB in size, max.)
+It looks like each section of the page will have a full-screen background image, and each section will be 100% of the viewport height. This is all pretty straightforward with the right CSS rules. Each section should probably be sized using the `vh` unit of measurement (`height: 100vh;`). The images can then be set as a `background` on each section. Be sure that the images are large and hi-res enough to display well on large screens, without being too big. (Keep each one less than 1MB in size, max.)
 
 You'll need some custom [jQuery](https://jquery.com/) for the navbar to reposition on scroll. This would likely be done by dymanically swapping out classes on the navbar once a user scrolls down beyond a certain point.
 
