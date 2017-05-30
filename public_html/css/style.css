@@ -1,15 +1,20 @@
 .background-image-1 {
-	background-image: url(../images/puma.jpg);
+	background-image: url(../images/new-heights-resize.jpg);
 	height: 100vh;
+	background-repeat: no-repeat;
 }
-background-image-2 {
-	background-image: url(../images/14487422_264631550604799_484667706230964224_n.jpg);
+.background-image-2 {
+	background-image: url(../images/linkin-resize.jpg);
 	height: 100vh;
+	background-repeat: no-repeat;
 }
-background-image-3 {
-	background-image: url(../images/linkin.jpg);
+.background-image-3 {
+	background-image: url(../images/pov-resize.jpg);
 	height: 100vh;
+	background-repeat: no-repeat;
 }
-background-image-4 {
-	background-image: url(../images/GOPR0082.MP4.00_00_45_13.Still001.jpg)
+.background-image-4 {
+	background-image: url(../images/regina-revenge.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
 }

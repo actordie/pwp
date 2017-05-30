@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 	</head>
 	<body>
-		<div class="background-image-2" alt="dad">
+		<div class="background-image-1">
 		</div>
 		<div class="background-image-2">
 		</div>
