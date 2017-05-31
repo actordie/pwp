@@ -16,11 +16,11 @@ To increase the reach of a new or established social media presence (as measured
 	<body>
 		<h2>Purpose, Audience Goal</h2>
 		<h3>Purpose</h3>
-		<p>The purpose of this webssite is to thank those who have given me the opprotunity to complete the Bootcamp </p>
+		<p>The purpose of this webssite is to showcase my passions. From film, web design to skateboarding </p>
 		<h3>Audience</h3>
-		<p>The Audience should the New Mexico Workforce Connection Center, CNM, and the Kellog Foundation</p>
+		<p>The Audience will be those that would like to know more about me.</p>
 		<h3>Goal</h3>
-		<p>The goal of this project is to show off what I have accomplished in this program</p>
+		<p>The goal of this project is to show off what I have accomplished </p>
 		<h2>Persona</h2>
 		<b><p>Name:</b>La June Montgomery Tabron</p>
 		<p><b>Age</b>:50s
