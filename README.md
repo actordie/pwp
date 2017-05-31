@@ -46,3 +46,6 @@ Your Milestone 2&alpha; passes at [Tier III](https://bootcamp-coders.cnm.edu/pro
 
 ### Edits &amp; Suggestions
 - The `<link>` tag on line 5 is malformed - it needs a closing `>`, and the spaces in the `rel` attribute can cause problems.
+
+## Milestone 2b Feedback
+Feedback left via Slack. Your PWP Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
