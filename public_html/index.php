@@ -1,3 +1,4 @@
+<?php require_once("php/image-list.php") ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,7 +14,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -70,13 +71,22 @@
 		<div class="background-image-4" id="contact">
 		</div>
 		<div class="background">
-			<a data-fancybox="gallery" href="images/regina-revenge.jpg">
+			<?php
+			foreach ($imgArray as $image) {
+				echo '<div class="col-xs-12 col-md-2"> 
+				<a data-fancybox="gallery" href='."images/fancybox-fullsize-images/$image".'>
+					<img src='."images/images-thumbnail/$image".' alt="$image">
+				</a>
+			  </div>';
+			}
+			?>
+			<!--<a data-fancybox="gallery" href="images/regina-revenge.jpg">
 				<img src="images/regina-revenge.jpg">
 			</a>
 
 			<a data-fancybox="gallery" href="images/pov-resize.jpg">
 				<img src="images/pov-resize.jpg">
-			</a>
+			</a> -->
 		</div>
 	</body>
 </html>
