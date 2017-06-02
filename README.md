@@ -24,7 +24,7 @@ It looks like each section of the page will have a full-screen background image,
 
 You'll need some custom [jQuery](https://jquery.com/) for the navbar to reposition on scroll. This would likely be done by dymanically swapping out classes on the navbar once a user scrolls down beyond a certain point.
 
-You may not want or need to use the Bootstrap navbar since your navigation design ideas are very different Bootstrap's. Still, you'll still want to use the grid system and other Bootstrap classes to get it looking right, and the `@media` queries to apply CSS rules based on screen width.  
+You may not want or need to use the Bootstrap navbar since your navigation design ideas are very different Bootstrap's. Still, you'll still want to use the grid system and other Bootstrap classes to get 	it looking right, and the `@media` queries to apply CSS rules based on screen width.  
 
 Either jQuery or CSS Animation can be used to fade in images and content on page load. Have a look at [Animate.css](https://daneden.github.io/animate.css/) library and see if you could use this for your fade-in effect (you may need to edit some of the CSS yourself). If [Animate.css](https://daneden.github.io/animate.css/) won't cut it, there's always good-old fashioned [jQuery](https://jquery.com/).
 

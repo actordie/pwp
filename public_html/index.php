@@ -13,7 +13,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
 				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,6 +30,10 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
 	</head>
 	<body>
 		<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
@@ -54,10 +58,9 @@
 						<li><a href="#contact">Contact</a></li>
 						</li>
 					</ul>
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
+				</div>
+			</div>
 		</nav>
-
 		<div class="background-image-1" id="about-me">
 		</div>
 		<div class="background-image-2" id="acknowledgements">
@@ -65,6 +68,15 @@
 		<div class="background-image-3" id="gallery">
 		</div>
 		<div class="background-image-4" id="contact">
+		</div>
+		<div class="background">
+			<a data-fancybox="gallery" href="images/regina-revenge.jpg">
+				<img src="images/regina-revenge.jpg">
+			</a>
+
+			<a data-fancybox="gallery" href="images/pov-resize.jpg">
+				<img src="images/pov-resize.jpg">
+			</a>
 		</div>
 	</body>
 </html>
