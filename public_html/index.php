@@ -11,10 +11,6 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-				integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css"/>
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,54 +28,62 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-transparent" role="navigation">
-			<div class="container-fluid" id="nav_center">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-							  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#about-me">ACT OR DIE</a>
+
+		<header>
+			<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+				<div class="container-fluid" id="nav_center">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+								  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#about-me">ACT OR DIE</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#about-me"> About Me <span class="sr-only">(current)</span></a></li>
+							<li><a href="#acknowledgements">Acknowledgements</a></li>
+							<li><a href="#gallery">Gallery</a></li>
+							<li><a href="#contact">Contact</a></li>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#about-me"> About Me <span class="sr-only">(current)</span></a></li>
-						<li><a href="#acknowledgements">Acknowledgements</a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li><a href="#contact">Contact</a></li>
-						</li>
-					</ul>
+			</nav>
+		</header>
+
+		<div class="background-image-1" id="about-me">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<h1 class="text-left">AmbientCreativiT</h1>
+					</div>
 				</div>
 			</div>
-		</nav>
-		<div class="background-image-1" id="about-me">
 		</div>
+
 		<div class="background-image-2" id="acknowledgements">
 		</div>
+
 		<div class="background-image-3" id="gallery">
 		</div>
+
 		<div class="background-image-4" id="contact">
 		</div>
-		<div class="background">
-			<?php
-			foreach ($imgArray as $image) {
-				echo '<div class="col-xs-12 col-md-2"> 
-				<a data-fancybox="gallery" href='."images/fancybox-fullsize-images/$image".'>
-					<img src='."images/images-thumbnail/$image".' alt="$image">
-				</a>
-			  </div>';
-			}
-			?>
+
+		<div id="gallery">
+			<div class="container-fluid">
+				images here
+			</div>
 			<!--<a data-fancybox="gallery" href="images/regina-revenge.jpg">
 				<img src="images/regina-revenge.jpg">
 			</a>

@@ -5,6 +5,8 @@
 	background: url(../images/resized-new-heights.jpg) no-repeat 68%;
 	height: 100vh;
 	background-size: cover;
+	padding: 85vh 0 2rem 0;
+	color: #ffffff;
 }
 .background-image-2 {
 	background: url(../images/cruising-resize.jpg) no-repeat 75%;
@@ -21,8 +23,9 @@
 	height: 100vh;
 	background-size: cover;
 }
-.background {
-	background-color: black;
+
+div#gallery {
+	background-color: #000;
+	color: #fff;
 	height: 100vh;
-	background-size: cover;
 }
