@@ -80,7 +80,6 @@
 
 		<div class="background-image-4" id="contact">
 		</div>
-		/*
 		<!--
 		<?php
 		foreach($imgArray as $image) {
@@ -90,7 +89,7 @@
 				</a>
 			  </div>';
 		}
-		?> */
+		?>
 		<a data-fancybox="gallery" href="images/regina-revenge.jpg">
 			<img src="images/regina-revenge.jpg">
 		</a>
@@ -102,12 +101,13 @@
 		<div class="container-fluid">
 			<div class="row thumbnail-row">
 				<div id="gallery">
-					<a data-fancybox="group" href="images/regina-revenge.jpg" class="thumbnail">
+					<a data-fancybox="group" href="images/images-thumbnail/first-race.jpg" class="thumbnail">
 						<div class="col-xs-12 col-md-3">
-							<img class="thumbnail" src="images/regina-revenge.jpg">
-							<a data-fancybox="group" href="images/pov-resize.jpg" class="thumbnail">
+							<img class="thumbnail" src="images/images-thumbnail/first-race.jpg">
+							<a data-fancybox="group" href="images/images-thumbnail/corrales.jpg" class="thumbnail">
 								<div class="col-xs-12 col-md-3">
-									<img class="thumbnail img-responsive" src="images/pov-resize.jpg">
+									<img class="thumbnail img-responsive" src="images/images-thumbnail/corrales.jpg">
+									<div
 								</div>
 						</div>
 				</div>
