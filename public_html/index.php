@@ -8,30 +8,31 @@
 		<meta name=“viewport” content=“width=device-width, initial-scale=1">
 
 
-		<!-- Latest compiled and minified CSS -->
+		<!-- Bootstrap/ Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
-
-		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
-		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		<!-- jQuery v3.0 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
 
 		<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+		<!-- jQuery v3.0 -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js" type="text/javascript"></script>
 
-		<!-- Latest compiled and minified JavaScript -->
+		<!-- Bootstrap - JS  Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+		<!-- Fancybox -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 	</head>
-	<body>
 
+	<body>
 		<header>
 			<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
 				<div class="container-fluid" id="nav_center">
@@ -78,15 +79,33 @@
 
 		<div class="background-image-4" id="contact">
 		</div>
+/*
+		<!--
+		<?php
+		foreach ($imgArray as $image) {
+			echo '<div class="col-xs-12 col-md-12"> 
+				<a data-fancybox="gallery" href='."images/fancybox-fullsize-images/$image".'>
+					<img src='."images/images-thumbnail/$image".' alt="$image">
+				</a>
+			  </div>';
+		}
+		?> */
+		<a data-fancybox="gallery" href="images/regina-revenge.jpg">
+			<img src="images/regina-revenge.jpg">
+		</a>
 
+		<a data-fancybox="gallery" href="images/pov-resize.jpg">
+			<img src="images/pov-resize.jpg">
+		</a>
+-->
 		<div id="gallery">
 			<div class="container-fluid">
-				<a data-fancybox="gallery" href="images/regina-revenge.jpg">
-					<img src="images/regina-revenge.jpg">
+				<a data-fancybox="group"  data-width="800" data-heigt="100" href="images/regina-revenge.jpg" class="thumbnail">
+					<img class="thumbnail" src="images/regina-revenge.jpg">
 				</a>
 
-				<a data-fancybox="gallery" href="images/pov-resize.jpg">
-					<img src="images/pov-resize.jpg">
+				<a class="thumbnail" data-fancybox="group" href="images/pov-resize.jpg">
+					<img src="images/pov-resize.jpg" class="thumbnail">
 				</a>
 			</div>
 		</div>
