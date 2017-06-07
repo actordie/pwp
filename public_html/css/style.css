@@ -24,6 +24,10 @@
 	height: 100vh;
 	background-size: cover;
 }
+.about-me{
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
 .background-image-4 {
 	background: url(../images/volcano-surfing-resize.jpg) no-repeat 85%;
 	height: 100vh;
@@ -32,6 +36,5 @@
 
 div#gallery {
 	background-color: #000;
-	color: #ff2412;
-	height: 100vh;
+	height: auto;
 }

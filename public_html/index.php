@@ -94,12 +94,13 @@
 										who you are
 										and he loves you for that.
 									</li>
-									<li>He's had some of the best friends that any person can want. James Tracey for convincing
+									<li>He's had some of the best friends that any person can want. A special shoutout goes to
+										James Tracey for convincing
 										him
 										not to give
 										up on a dream of where he is a downhill skater.
 									</li>
-									<li>He'd like to thank New Mexico Tech Hire and the W.K. Kellogg Foundation for helping me
+									<li>He'd like to thank New Mexico Tech Hire and the W.K. Kellogg Foundation for helping him
 										get
 										into the CNM
 										Ingennuity's Deep Dive Coding Bootcamp where he learned how to develop this site.
@@ -113,13 +114,22 @@
 		</div>
 
 		<div class="background-image-3" id="about-me">
-			<h2>About Sabastian</h2>
-			<p class="lead">Recognition once not sought after but after realizing that he had nothing to show for/to
-				himself, he decided to change that. Sabastian
-				Jackson from Long Branch, New Jersey, never once paid attention to the spotlight but never took enough time
-				to realize the importance of the little things he has accoplished. This website is to show the world what's
-				been up
-				in his life and a little reminder for Sabastian of all that he has done. Thanks for visiting.</p>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-5 col-xs-12 col-md-offset-1 about-me">
+						<h2>About Sabastian</h2>
+						<p class="lead">Recognition once not sought after but after realizing that he had nothing to show
+							for/to
+							himself, he decided to change that. Sabastian
+							Jackson from Long Branch, New Jersey, never once paid attention to the spotlight but never took
+							enough time
+							to realize the importance of the little things he has accoplished. This website is to show the
+							world what's
+							been up
+							in his life and a little reminder for Sabastian of all that he has done. Thanks for visiting.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="background-image-4">
