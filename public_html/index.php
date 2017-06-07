@@ -3,24 +3,12 @@
 <html>
 	<head>
 		<title>Skate Smart, Live Fast</title>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name=“viewport” content=“width=device-width, initial-scale=1">
-
-
-		<<!doctype html>
-		<html lang="en">
-			<head>
 				<meta charset="UTF-8">
 				<meta name="viewport"
 						content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 				<meta http-equiv="X-UA-Compatible" content="ie=edge">
-				<title>Document</title>
-			</head>
-	<body>
-
-	</body>
-</html>-- Bootstrap/ Latest compiled and minified CSS -->
+		<head>
+<!-- Bootstrap/ Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -45,6 +33,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 <!-- Recaptcha password -->
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 <script src="js/form-validate.js"></script>
 </head>
 
@@ -61,13 +52,13 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#about-me">ACT OR DIE</a>
+					<a class="navbar-brand">ACT OR DIE</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li><a href="#about-me"> About Me <span class="sr-only">(current)</span></a></li>
 						<li><a href="#acknowledgements">Acknowledgements</a></li>
+						<li><a href="#about-me"> About Sabaastian <span class="sr-only">(current)</span></a></li>
 						<li><a href="#gallery">Gallery</a></li>
 						<li><a href="#contact">Contact</a></li>
 						</li>
@@ -77,7 +68,7 @@
 		</nav>
 	</header>
 
-	<div class="background-image-1" id="about-me">
+	<div class="background-image-1">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
@@ -87,13 +78,22 @@
 		</div>
 	</div>
 
-	<div class="background-image-2" id="acknowledgements">
+	<div class="background-image-2 well well-sm" id="acknowledgements" >
+
+		<h2>Thank You</h2>
+		<ul>
+			<li>Sabastian would like to thank those that have helped him in the past. Family first, you know who you are and he loves you for that.</li>
+			<li>He's had some of the best friends that any person can want. James Tracey for convincing him not to give up on a dream of where he is a downhill skater.</li>
+			<li>He'd like to thank New Mexico Tech Hire and the W.K. Kellogg Foundation for helping me get into the CNM Ingennuity's  Deep Dive Coding Bootcamp where he learned how to develop this site.</li>
+		</ul>
 	</div>
 
-	<div class="background-image-3" id="gallery">
+	<div class="background-image-3" id="about-me">
+		<h2>About Sabastian</h2>
+		<p>Recognition once not sought after but after realizing that he had nothing to show for/to himself. Sabastian Jackson from Long Branch, New Jersey, never once paid attention to the spotlight but never took enough time to realize the importance of the little things he has done. This website is to show the world what's been up in his life and a little reminder for Sabastian of all that he has done. Thanks for visiting.  </p>
 	</div>
 
-	<div class="background-image-4" id="contact">
+	<div class="background-image-4">
 	</div>
 	<!--
 		<?php
@@ -113,7 +113,7 @@
 			<img src="images/pov-resize.jpg">
 		</a>
 -->
-	<div class="container-fluid">
+	<div class="container-fluid" id="gallery">
 		<div class="row thumbnail-row">
 			<div id="gallery">
 				<div class="col-xs-12 col-md-3">
@@ -138,7 +138,7 @@
 
 
 	<!--Begin Contact Form-->
-	<div>
+	<div id="contact">
 		<form id="contact-form" action="php/mailer.php" method="post">
 			<div class="form-group">
 				<label for="name">Name <span class="text-danger">*</span></label>
