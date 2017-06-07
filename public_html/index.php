@@ -88,24 +88,23 @@
 						<div>
 							<h2>Thank You</h2>
 							<ul class="lead">
-								<strong>
-									<li>Sabastian would like to thank those that have helped him in the past. Family first, you
-										know
-										who you are
-										and he loves you for that.
-									</li>
-									<li>He's had some of the best friends that any person can want. A special shoutout goes to
-										James Tracey for convincing
-										him
-										not to give
-										up on a dream of where he is a downhill skater.
-									</li>
-									<li>He'd like to thank New Mexico Tech Hire and the W.K. Kellogg Foundation for helping him
-										get
-										into the CNM
-										Ingennuity's Deep Dive Coding Bootcamp where he learned how to develop this site.
-									</li>
-								</strong>
+								<p class="text-center">Sabastian would like to thank those that have helped him in the past.</p>
+								<li>Family first, you
+									know
+									who you are
+									and he loves you for that.
+								</li>
+								<li>He's had some of the best friends that any person can want. A special shout-out goes to
+									James Tracey for convincing
+									him
+									not to give
+									up on a dream of where he is a downhill skater.
+								</li>
+								<li>He'd like to thank New Mexico Tech Hire and the W.K. Kellogg Foundation for helping him
+									get
+									into the CNM
+									Ingenuity's Deep Dive Coding Bootcamp where he learned how to develop this site.
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -118,15 +117,17 @@
 				<div class="row">
 					<div class="col-md-5 col-xs-12 col-md-offset-1 about-me">
 						<h2>About Sabastian</h2>
-						<p class="lead">Recognition once not sought after but after realizing that he had nothing to show
-							for/to
-							himself, he decided to change that. Sabastian
-							Jackson from Long Branch, New Jersey, never once paid attention to the spotlight but never took
-							enough time
-							to realize the importance of the little things he has accoplished. This website is to show the
-							world what's
-							been up
-							in his life and a little reminder for Sabastian of all that he has done. Thanks for visiting.</p>
+						<strong><p class="lead">Recognition once not sought after but only when he realized that he had
+								nothing to show
+								of
+								his effort, he decided to change that. Sabastian
+								Jackson from Long Branch, New Jersey, never once paid attention to the spotlight but never took
+								enough time
+								to realize the importance of the little things he has accomplished. This website is to show the
+								world what's
+								been up
+								in his life and a little reminder for Sabastian of all that he has done. Thanks for
+								visiting.</p></strong>
 					</div>
 				</div>
 			</div>
