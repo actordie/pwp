@@ -49,3 +49,25 @@ Your Milestone 2&alpha; passes at [Tier III](https://bootcamp-coders.cnm.edu/pro
 
 ## Milestone 2b Feedback
 Feedback left via Slack. Your PWP Milestone 2b passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+## Milestone 3 / Final PWP Evaluation
+This really came together beautifully - your photos are gorgeous, and the way you chose to make them the star of your web design here creates a visually engaging experience. Your layout looks great on mobile as well, and your code looks GREAT. Nice work.
+
+Your contact form looks wired up successfully from my end via devtools. Check your email and see if you got my test message.
+
+Your development skills have grown remarkably over the past 9 weeks, and you've done a great job coding this up. You challenged yourself with a design and layout that was your own personal vision, and not a cookie-cutter solution. It was challenging, and you executed it well here. There is still room for you to experiment with further work on this. I would suggest trying to incorporate some of the JavaScript-driven animation and transitions you initially wanted to include here. Refer back to some of the suggestions for jQuery plugins from Milestone 2a.
+
+Your Milestone 3/Final Delivery for PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall passing grade across all of your PWP Milestones is [35/40 points (87.5%)](https://bootcamp-coders.cnm.edu/projects/personal/rubric/#sample-score).
+
+- Milestone 1 - 20%: Tier III 30(0.2) = 6
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier III 30(0.1) = 3
+- Milestone 3 - 50%: Tier IV 40(0.5) = 20
+
+### Edits &amp; Suggestions
+- Don't forget to include `alt` text on your images.
+- Consider adding some padding to the top and bottom of the contact form and gallery sections to give them some "breathing room" and space things out a bit.
+- I might make a special thumbnail for your one vertical image in the gallery - that way the image thumbnails are all consistent.
+- Some subtle animations and maybe a bold font on the page title could really take the design to the next level.
